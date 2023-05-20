@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>API Documentation</title>
+</head>
+<body>
+    <div class="welcome___section">
+        <div class="api__name">
+            <img src="dbz.png" alt="icon" class="icon">
+        </div>
+        <div>
+            <h1>DBZ API</h1>
+            <p>The Dragon Ball API is a RESTful API based on the television series Dragon Ball. <br> API queries are limited by IP address and will return either characters or planets from the series. <br> You will be able to submit character data.</p>
+        </div>
+        <div class="routes">
+            <h1>How to use our REST Api</h1>
+            <div class="get">
+                <div><h3 class="iten-get">GET</h3></div>
+                <div>
+                    <h3>/characters</h3>
+                </div>
+            </div>
+            <div class="get">
+                <div><h3 class="iten-get">GET</h3></div>
+                <div>
+                    <h3>/characters/:{_id}</h3>
+                </div>
+            </div>
+            <div class="get">
+                <div><h3 class="iten-get">GET</h3></div>
+                <div>
+                    <h3>/planets</h3>
+                </div>
+            </div>
+            <div class="get">
+                <div><h3 class="iten-get">GET</h3></div>
+                <div>
+                    <h3>/planets/:{_id}</h3>
+                </div>
+            </div>
+            <div class="post">
+                <div><h3 class="iten-post">POST</h3></div>
+                <div>
+                    <h3>/characters</h3>
+                </div>
+            </div>
+            <div class="post">
+                <div><h3 class="iten-post">POST</h3></div>
+                <div>
+                    <h3>/planets</h3>
+                </div>
+            </div>
+            <div class="delete">
+                <div><h3 class="iten-delete">DELETE</h3></div>
+                <div>
+                    <h3>/characters/:{_id}</h3>
+                </div>
+            </div>
+            <div class="delete">
+                <div><h3 class="iten-delete">DELETE</h3></div>
+                <div>
+                    <h3>/planets/:{_id}</h3>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="example"><span>Ex:</span> http://localhost:8000/characters</h3>
+    </div>
+</body>
+</html>
